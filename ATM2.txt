@@ -1,0 +1,29 @@
+Write a program that simulates the behaviour of a basic ATM. 
+
+Follow the instructions below:
+
+1. Print a main menu:
+Welcome to Northern Frock
+2. 1 - Display balance
+3. 2 - Withdraw funds
+4. 3 - Deposit funds
+5. 9 - Return card
+Enter an option:
+6. If ‘1’ is entered, display the current balance and the maximum amount available for withdrawal (must be a multiple of £10), and return to main menu.
+7. If ‘2’ is entered, print a sub-menu with withdrawal amounts of:
+Please select withdrawal amount
+8. 1 - £10
+9. 2 - £20
+10. 3 - £40
+11. 4 - £60
+12. 5 - £80
+13. 6 - £100
+14. 7 - Other amount
+15. 8 - Return to main menu
+Enter an option:
+a. If ‘1 to 6’’ is selected check that the requested withdrawal is allowed, print a message to show that the money has been withdrawn, calculate the new balance and return to main menu.
+b. If ‘7’ is selected, then prompt the user for an integer value. Check this number is a multiple of 10 and that the withdrawal is permitted, print a message to show that the money has been withdrawn, calculate the new balance and return to main menu.
+c. If ‘8’ is selected return to main menu.
+16. If ‘3’ is entered, provide another menu that will allow the user to enter an amount to deposit (does not need to be a multiple of £10), return to main menu or return card. If funds are deposited, provide appropriate feedback and update the balance and return to main menu.
+17. If ‘4’ is entered, print a goodbye message and exit (break).
+18. If another value is entered, print an error message and print the menu again.
